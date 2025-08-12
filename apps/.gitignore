@@ -1,0 +1,24 @@
+@"
+# deps & builds
+node_modules/
+dist/
+build/
+.out/
+.temp/
+.cache/
+coverage/
+
+# env & local
+.env
+.env.*
+!.env.example
+
+# editors
+.vscode/
+.idea/
+
+# logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+"@ | Out-File -Encoding utf8 .gitignore
